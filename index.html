@@ -678,13 +678,12 @@
     .section-title {
       font-family: 'Lora', serif;
       font-size: clamp(1.5rem, 4vw, 2rem);
-     font-weight: 700;
- margin-bottom: 20px;
+      margin-bottom: 20px;
+    font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
       text-align: left;
       color: #2a2a2a;
-
     }
     
     .gifts-message {
@@ -1085,9 +1084,17 @@
     <div class="location-overlay"></div>
     
     <div class="location-title">
-     Локация
+     Локации
     </div>
-           <div class="location-address" style="margin-top:40px">
+    <div class="location-address">
+     Кировский отдел ЗАГС
+     <br/>
+     Университетский пер., 48/2А
+    </div>
+    <a class="location-btn" href="https://yandex.ru/maps/-/CHcQAALr" rel="noopener noreferrer" target="_blank">
+     Построить маршрут
+    </a>
+    <div class="location-address" style="margin-top:40px">
      Ресторан ШОДО
      <br/>
      Левобережная ул., 83
@@ -1102,12 +1109,21 @@
     </div>
     <div class="program-timeline">
      <div class="program-item">
-           <div class="program-details animate slide-left delay-1">
-             </div>
+      <div class="program-time animate slide-right delay-1">
+       15:00
+      </div>
+      <div class="program-details animate slide-left delay-1">
+       <div class="program-event">
+        Церемония регистрации
+       </div>
+       <div class="program-location">
+        Кировский отдел ЗАГС
+       </div>
+      </div>
      </div>
      <div class="program-item">
       <div class="program-time animate slide-right delay-2">
-       17:00
+       16:00
       </div>
       <div class="program-details animate slide-left delay-2">
        <div class="program-event">
@@ -1152,7 +1168,7 @@
     DRESSCODE
   </div>
   <p class="dresscode-text animate slide-up delay-2">
-   Нам будет очень приятно, если вы придержитесь классического стиля  одежды и подберете наряд в соответствии с нашей цветовой гаммой
+    Нам будет очень приятно, если вы придержитесь классического стиля одежды и подберете наряд в соответствии с нашей цветовой гаммой
   </p>
 </section>
    <section class="hidden" id="color-palettes">
